@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=DM+Serif+Display&display=swap');
+
+/* .header{
+    display:flex;
+    width: 100%;
+    height: 110px;
+    /* direction:inherit; */
+/* flex-direction: row; */
+/* align-items: center;
+    justify-content: center; */
+
+a:visited {
+    color: #121212;
+}
+/* .header{
+    position: fixed;
+    width: 100%;
+    background-color: #121212;
+} */
+a:link {
+    color: #121212;
+}
+.logoname {
+    font-family: 'DM Serif Display', serif;
+    color: #fff;
+    font-size: 48px;
+    padding-top: 44px;
+    text-align: center;
+    /* margin-left:43%; */
+}
+
+/* .social-icon{
+    float:right;
+} */
+.icon-bar {
+    display: flex;
+    max-width: 1024px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.icon-bar a {
+    float: left;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    width: 33.33333333333333%;
+    /* padding-right: 33%; */
+    padding: 21px 0;
+    transition: all 0.3s ease;
+    color: #fff;
+    /* White text color */
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration-line: none;
+}
+
+.icon-bar a:hover {
+    background-color: #FFF;
+    color: #121212;
+}
+
+.active {
+    background-color: #ffffff;
+}
+
+hr {
+    border: 1px solid #FFF;
+}
+
+.card {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+    position: relative;
+    height: 365px;
+    flex-wrap:wrap;
+}
+
+.card .image {
+    max-width: 547px;
+    max-height: 365px;
+    height: auto;
+    width: auto;
+}
+
+.card .image img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.info {
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 417px;
+    width: 32%;
+    align-items: center;
+    gap: 80px;
+}
+
+.info .title {
+    font-size: 30px;
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.info .author {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 16px;
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.info .button {
+    display: flex;
+    background-color: #fff;
+    height: 50px;
+    width: 328px;
+    border-radius: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.info .button a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 9px;
+}
+
+.feather {
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 65px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    margin-top: 24px;
+}
+
+.intro {
+    display: flex;
+    width: 858px;
+    margin: auto;
+    font-family: 'DM Serif Display', serif;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    padding-top: 21px;
+}
+
+.main-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-video .title {
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 38px;
+}
+
+.main-video iframe {
+    padding-top: 24px;
+}
+
+.reel .title {
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.reel .video {
+    padding-top: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+    position: relative;
+    z-index: 0;
+    flex-wrap:wrap;
+}
+
+.reel .video video {
+    border-radius: 5px;
+    position: relative;
+    z-index: 0;
+}
+
+.caption {
+    position: relative;
+    z-index: 1;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 24px;
+    bottom: 13px;
+    width: 214px;
+    text-align: center;
+}
+
+.about-title {
+    width: 100%;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.about{
+    padding-top: 37px;
+    display: flex;
+    gap: 63px;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.about-card {
+    width: 273px;
+}
+
+.name {
+    font-family: 'DM Serif Display', serif;
+    color: #ffffff;
+    font-size: 32px;
+    padding-top: 10px;
+}
+
+.position {
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    padding-top: 10px;
+}
